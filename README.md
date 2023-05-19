@@ -14,6 +14,6 @@ Tiene un menu y corre en consola.
 El programa corre en consola y esta escrito en c++ standard, asi que corre en todos los sistemas operativos. 
 compilar con: "g++ usuario.h producto.h biblioteca.h main.cpp"
 
-correr en linux: "/a.out"
+Correr en linux: "/a.out"
 
-correr en windows: "a.exe"
+Correr en windows: "a.exe"
