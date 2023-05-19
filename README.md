@@ -7,6 +7,13 @@ Ademas, si lo que se pide es un libro que pertenece a una saga, se muestra como 
 
 El programa solo acepta libros o publicaciones academicas.
 
-Tendra un menu y correra en consola.
+Tiene un menu y corre en consola.
 
 ## Consideraciones
+
+El programa corre en consola y esta escrito en c++ standard, asi que corre en todos los sistemas operativos. 
+compilar con: "g++ usuario.h producto.h biblioteca.h main.cpp"
+
+correr en linux: "/a.out"
+
+correr en windows: "a.exe"
