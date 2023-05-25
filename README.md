@@ -11,8 +11,10 @@ Tiene un menu y corre en consola.
 
 ## Consideraciones
 
+En este momento no estan todas las funciones que dice el UMl debido a que involucran algunos temas como apuntadores y polimorfismo que todavia no vemos por completo. 
+
 El programa corre en consola y esta escrito en c++ standard, asi que corre en todos los sistemas operativos. 
-compilar con: "g++ usuario.h producto.h biblioteca.h main.cpp"
+compilar con: "g++ added.h usuario.h producto.h biblioteca.h main.cpp"
 
 Correr en linux: "/a.out"
 
