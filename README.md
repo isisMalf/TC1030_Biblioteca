@@ -2,18 +2,19 @@ Isis Malfavon A01705838
 
 # TC1030_Biblioteca
 
-Este proyecto trata sobre una biblioteca a la cual le puedes agregar libros o publicaciones academicas. Ademas, se pueden hacer pedidos con lo cual se revisa con el nombre del libro si esta disponible o no, si esta disponible se cambia el estatus de disponibilidad y se agrega en poseedor la informacion del usuario que pidio el libro. Si no esta disponible se muestra que no esta disponible asi como la informacion del usuario que lo tiene en ese momento y la fecha de regreso del libro. Por otro lado, si se hace una devolucion se cambia el estatus de disponibilidad y se regresa el atributo poseedor al default. 
-Ademas, si lo que se pide es un libro que pertenece a una saga, se muestra como recomendacion pedir los demas libros tambien, para este contexto se considera que una saga consta de dos a seis libros. 
+Este proyecto trata sobre una biblioteca a la cual le puedes agregar libros o publicaciones academicas por medio de donaciones. Ademas, se pueden hacer prestamos con lo cual se revisa con el nombre del libro si esta disponible o no, si esta disponible se cambia el estatus de disponibilidad y se agrega en poseedor la informacion del usuario que pidio el libro. Si no esta disponible se muestra que no esta disponible. Por otro lado, si se hace una devolucion se cambia el estatus de disponibilidad. 
 
 ## Funcionalidad 
 
 El programa solo acepta libros o publicaciones academicas.
 
+Los prestamos y devoluciones solo se pueden hacer con el nombre de material como filtro. 
+
 Tiene un menu y corre en consola.
 
 ## Consideraciones
 
-Hay un error al involucrar los apuntadores, pero no se porque falla. 
+El programa asume que el usuario ingresara el tipo de dato correcto. Ej. Si pide un numero de telefono que se ingresara un int. Si se ingresa el tipo de dato incorrecto hay un error. 
 
 El programa corre en consola y esta escrito en c++ standard, asi que corre en todos los sistemas operativos. 
 compilar con: "g++ added.h usuario.h producto.h biblioteca.h main.cpp"
