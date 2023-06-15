@@ -10,6 +10,8 @@ El programa solo acepta libros o publicaciones academicas.
 
 Los prestamos y devoluciones solo se pueden hacer con el nombre de material como filtro. 
 
+Si no utilizas la opcion de "realizar una donacion" antes de un pedido regresa que no se encuentra el material porque aun no hay ningun material en biblioteca, donar es la forma en la que se crean objetos. 
+
 Tiene un menu y corre en consola.
 
 ## Consideraciones
